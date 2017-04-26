@@ -1,6 +1,22 @@
 Cinder-Awesomium-nolibs
 =======================
 
+This is a fork of the Awesomium Cinder wrapper from the master-scons branch of https://github.com/gaborpapp/Cinder-Awesomium-nolibs. The binaries were removed, although the binaries for Awesomium 1.7.4.2 were linked in that repo (and are still linked below). This repo has been updated to Awesomium version 1.7.5.1.
+
+### Getting and installing binaries
+The built libraries are available on Awesomium's [download site](http://www.awesomium.com/download).
+
+To incorporate these builds in Cinder, copy the Awesomium `build` folder into the root of the repo. After running the Awesomium installation, this folder and the binaries will be in `.../Program Files (x86)/Awesomium Technologies LLC/Awesomium SDK/` on the C: drive. The include headers are already included in the repo.
+
+### Additional files
+Note that there are **two additional files** in the Cinder block include folder that are **not** included in the forked repo:
+
+- js_delegate.h
+- method_dispatcher.h
+
+These are taken from the Awesomium tutorial and contain helper methods for receiving javascript callbacks. This can be downloaded from [here](http://wiki.awesomium.com/tutorials/tutorial-3-hooking-up-events.html). (Github repo is [here](https://github.com/awesomium/tutorial-framework)).
+
+## README FROM FORKED REPO BELOW:
 Cinder block for the Awesomium web browser library.
 
 This is a fork of the original https://github.com/paulhoux/Cinder-Awesomium with the binaries removed.
