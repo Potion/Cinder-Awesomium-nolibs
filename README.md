@@ -28,7 +28,7 @@ Please refer to the [Awesomium license](https://raw.github.com/paulhoux/Cinder-A
 *Important note*: this block was created as an exercise in creating Cinder blocks. I am not an avid user of Awesomium, nor affiliated, least of all an expert. The block is provided as is. However, I will accept pull request that add to, or update, the functionality of this block.
 
 
-#####Adding this block to Cinder
+##### Adding this block to Cinder
 This block is meant to be used with version 0.8.5 of Cinder.
 
 Cinder's tool for setting up empty projects, TinderBox, has been revamped and now supports a neat system for the management of plug-ins called Cinder Blocks. This Awesomium block supports this new feature. To add this block to your copy of Cinder, so it will be detected automatically by TinderBox:
@@ -40,7 +40,7 @@ Cinder's tool for setting up empty projects, TinderBox, has been revamped and no
 Alternatively, you can download the repository as a [ZIP-file](https://github.com/paulhoux/Cinder-Awesomium/zipball/master) and manually add the files to a "cinder_master\blocks\Awesomium" folder.
 
 
-#####Creating a sample application using Tinderbox
+##### Creating a sample application using Tinderbox
 The provided sample will show you how to use Awesomium in your application. To create and compile the sample:
 * Run Cinder's TinderBox
 * Select "Awesomium: Basic" from the Template popup menu
@@ -51,7 +51,7 @@ The provided sample will show you how to use Awesomium in your application. To c
 * Press "Finish"
 
 
-#####Copyright notice
+##### Copyright notice
 Copyright (c) 2010-2013, Paul Houx - All rights reserved.
 This code is intended for use with the Cinder C++ library: http://libcinder.org
 
